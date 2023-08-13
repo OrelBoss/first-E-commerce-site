@@ -163,6 +163,11 @@ button:active {
     width: 100%;
     z-index: 1;
     position: fixed;
+    opacity: 0.8;
+    transition: opacity ease-in-out 0.3s;
+}
+.main-header:hover {
+    opacity: 1;
 }
 .page-header {
     background-image: url(https://i.pinimg.com/originals/00/53/20/005320f43b9a9d76e2f54fb94ba563ae.jpg);
